@@ -1,5 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';
+@import url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo.css');
 
 /*
 	Stellar by HTML5 UP
@@ -99,11 +100,11 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-color: #92A8D1;
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #95a7c7 15%, #fab8b6 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #95a7c7 15%, #fab8b6 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #95a7c7 15%, #fab8b6 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #95a7c7 15%, #fab8b6 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -120,14 +121,14 @@ input, select, textarea {
 /* Type */
 
 	body {
-		background-color: #935d8c;
+		background-color: #92A8D1;
 		color: rgba(255, 255, 255, 0.65);
 	}
 
 	body, input, select, textarea {
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: 'NanumSquareNeo', sans-serif;
 		font-size: 17pt;
-		font-weight: 300;
+		font-weight: 400;
 		line-height: 1.65;
 	}
 
@@ -170,7 +171,7 @@ input, select, textarea {
 		}
 
 	strong, b {
-		font-weight: 400;
+		font-weight: 800;
 	}
 
 	em, i {
@@ -194,7 +195,7 @@ input, select, textarea {
 		}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: 300;
+		font-weight: 700;
 		line-height: 1.5;
 		margin: 0 0 0.7em 0;
 		letter-spacing: -0.025em;
@@ -260,7 +261,7 @@ input, select, textarea {
 	code {
 		border-radius: 8px;
 		border: solid 1px;
-		font-family: "Courier New", monospace;
+		font-family: 'NanumSquareNeo', sans-serif;
 		font-size: 0.9em;
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
@@ -268,7 +269,7 @@ input, select, textarea {
 
 	pre {
 		-webkit-overflow-scrolling: touch;
-		font-family: "Courier New", monospace;
+		font-family: 'NanumSquareNeo', sans-serif;
 		font-size: 0.9em;
 		margin: 0 0 2em 0;
 	}
@@ -1843,7 +1844,7 @@ input, select, textarea {
 		border: 0;
 		cursor: pointer;
 		display: inline-block;
-		font-weight: 300;
+		font-weight: 400;
 		height: 2.75em;
 		line-height: 2.75em;
 		min-width: 9.25em;
@@ -2074,7 +2075,7 @@ input, select, textarea {
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
-			font-weight: 300;
+			font-weight: 400;
 			padding-left: 2.4em;
 			padding-right: 0.75em;
 			position: relative;
@@ -2167,7 +2168,7 @@ input, select, textarea {
 
 		select option {
 			color: #ffffff;
-			background: #935d8c;
+			background: #92A8D1;
 		}
 
 	input[type="checkbox"] + label,
@@ -2185,7 +2186,7 @@ input, select, textarea {
 	input[type="radio"]:checked + label:before {
 		background-color: #ffffff;
 		border-color: #ffffff;
-		color: #935d8c;
+		color: #92A8D1;
 	}
 
 	input[type="checkbox"]:focus + label:before,
@@ -2248,7 +2249,7 @@ input, select, textarea {
 		}
 
 		.icon.solid:before {
-			font-weight: 900;
+			font-weight: 600;
 		}
 
 		.icon.brands:before {
@@ -2256,7 +2257,7 @@ input, select, textarea {
 		}
 
 		.icon.major {
-			border: solid 1px;
+			border: solid px;
 			display: inline-block;
 			border-radius: 100%;
 			padding: 0.65em;
@@ -2309,6 +2310,9 @@ input, select, textarea {
 		.icon.style5 {
 			color: #8cc9f0;
 		}
+        .icon.style6 {
+            color : #fab8b6;
+        }
 
 		@media screen and (max-width: 1680px) {
 
@@ -2902,13 +2906,16 @@ input, select, textarea {
 			.statistics li.style5 {
 				background-color: #8cc9f0;
 			}
+            .statistics li.style6 {
+                background-color: #7adec6;
+            }
 
 			.statistics li strong, .statistics li b {
 				display: block;
 				font-size: 2em;
 				line-height: 1.1;
 				color: inherit !important;
-				font-weight: 300;
+				font-weight: 500;
 				letter-spacing: -0.025em;
 			}
 
