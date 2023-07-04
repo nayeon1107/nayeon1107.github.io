@@ -417,12 +417,12 @@
     listItems.forEach((item, index) => {
     item.addEventListener('click', () => {
         containers.forEach(container => {
-        container.style.display = 'none'; // 모든 container를 숨김
+        container.style.display = 'none';
         });
 
         const className = item.classList[0];
         const selectedContainer = document.querySelector(`.detail.${className}-info`);
-        selectedContainer.style.display = 'block'; // 선택된 container를 표시
+        selectedContainer.style.display = 'block';
     });
 });
 </script>
